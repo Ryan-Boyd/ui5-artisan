@@ -13,3 +13,5 @@ Command Line Tools for constructing UI5 apps
 - $ ui5 -h help
 - $ ui5 -v version
 - $ ui5 -c -controller [controller name]
+
+(creates new controller in current directory)
