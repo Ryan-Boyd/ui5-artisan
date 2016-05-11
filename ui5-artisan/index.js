@@ -1,0 +1,1 @@
+module.exports = require(‘./lib/ui5-artisan.js’);
