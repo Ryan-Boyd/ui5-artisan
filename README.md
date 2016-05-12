@@ -1,5 +1,5 @@
 # ui5-artisan
-Command Line Tools for constructing UI5 apps
+Command Line Tools for constructing UI5 apps, inspired by Laravel's artisan CL tool
 
 ## how to install
 
