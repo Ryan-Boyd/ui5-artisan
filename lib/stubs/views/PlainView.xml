@@ -1,0 +1,8 @@
+<mvc:View
+        controllerName=""
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:commons="sap.ui.commons"
+        xmlns:l="sap.ui.layout"
+        xmlns="sap.m">
+
+</mvc:View>
