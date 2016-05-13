@@ -1,7 +1,7 @@
 # ui5-artisan
 Command Line Tools for constructing UI5 apps 
 
-Inspired by Laravel's artisan CL tool and Apple's Visual Format Language
+Inspired by Laravel's [artisan CL tool](https://laravel.com/docs/5.2/artisan) and Apple's [Visual Format Language](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html)
 
 ## how to install
 
