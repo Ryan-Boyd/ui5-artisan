@@ -16,5 +16,47 @@ Command Line Tools for constructing UI5 apps, inspired by Laravel's artisan CL t
  $ ui5 -V version
  $ ui5 -c -controller [name] set controller and/or name.
  $ ui5 -v -view [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
+ $ ui5 -b -builder <templatingEngine> [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
 ```
-(creates new controller in current directory)
+## templating key
+### meta keys
+[ ≈ begin template
+
+] ≈ end template
+
+\- ≈ whitespace character (must use between elements[unless aggregated])
+
+### objects
+sf ≈ simple form
+
+f ≈ form
+
+oh ≈ object header
+
+t or tm ≈ sap.m.table
+
+tui ≈ sap.ui.table
+
+sf ≈ simple form
+
+itb ≈ icon tab bar
+
+p ≈ panel
+
+l ≈ label
+
+i ≈ input
+
+tx ≈ text
+
+cb ≈ combobox
+
+### modifiers
+
+t3, itb4, l4 ≈ add number after a template key to create multiples or add number of aggregations
+
+## template examples
+```
+$ ui5 -b [-oh-psf2-cb-t-]
+```
+creates object header, panel with 2 simple forms enclosed, combo box, and mobile table
