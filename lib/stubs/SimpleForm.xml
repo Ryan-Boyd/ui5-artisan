@@ -1,0 +1,23 @@
+<f:SimpleForm id="SimpleFormDisplay354"
+              minWidth="1024"
+              maxContainerCols="2"
+              editable="false"
+              layout="ResponsiveGridLayout"
+              title="Address"
+              labelSpanL="3"
+              labelSpanM="3"
+              emptySpanL="4"
+              emptySpanM="4"
+              columnsL="1"
+              columnsM="1">
+    <f:content>
+        <Label text="Name" />
+        <Text text="" />
+        <Label text="Street/No." />
+        <Text text="" />
+        <Label text="ZIP Code/City" />
+        <Text text="" />
+        <Label text="Country" />
+        <Text text="" />
+    </f:content>
+</f:SimpleForm>

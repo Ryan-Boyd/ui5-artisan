@@ -5,5 +5,3 @@
         xmlns:l="sap.ui.layout"
         xmlns:f="sap.ui.layout.form"
         xmlns="sap.m">
-
-</mvc:View>
