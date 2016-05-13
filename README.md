@@ -18,7 +18,7 @@ Command Line Tools for constructing UI5 apps, inspired by Laravel's artisan CL t
  $ ui5 -v -view [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
  $ ui5 -b -builder <templatingEngine> [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
 ```
-## templating key
+## templating key (under construction)
 ### meta keys
 [ ≈ begin template
 
