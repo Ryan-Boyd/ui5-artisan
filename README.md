@@ -20,8 +20,11 @@ Inspired by Laravel's [artisan CL tool](https://laravel.com/docs/5.2/artisan) an
  $ ui5 -v -view [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
  $ ui5 -b -builder <templatingEngine> [name] [type] set view and/or name. specify type of view. default is xml (js|xml)
 ```
-## templating key (under construction)
-### meta keys
+## templating key
+
+// ≈ still needs to be added
+
+### basic
 [ ≈ begin template
 
 ] ≈ end template
@@ -31,34 +34,30 @@ Inspired by Laravel's [artisan CL tool](https://laravel.com/docs/5.2/artisan) an
 ### objects
 sf ≈ simple form
 
-f ≈ form
+//f ≈ form
 
 oh ≈ object header
 
-t or tm ≈ sap.m.table
+//t or tm ≈ sap.m.table
 
-tui ≈ sap.ui.table
+//tui ≈ sap.ui.table
 
-sf ≈ simple form
+//itb ≈ icon tab bar
 
-itb ≈ icon tab bar
-
-p ≈ panel
-
-l ≈ label
-
-i ≈ input
-
-tx ≈ text
-
-cb ≈ combobox
+//p ≈ panel
 
 ### modifiers
 
-t3, itb4, l4 ≈ add number after a template key to create multiples or add number of aggregations
+These must prefix a number (1-infinity) determing how many to be created
+
+l ≈ label/input pair
+
+x ≈ checkbox
+
+b ≈ button
 
 ## template examples
 ```
-$ ui5 -b [-oh-psf2-cb-t-]
+$ ui5 -b [-oh-psfl2x1b1-b1-t-]
 ```
-creates object header, panel with 2 simple forms enclosed, combo box, and mobile table
+creates object header, panel with simple form and 2 label/input pairs, checkbox, and button enclosed, button, and mobile table
