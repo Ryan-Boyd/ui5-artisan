@@ -1,0 +1,16 @@
+        <ObjectHeader
+                title="{Name}"
+                number="{
+                            parts:[{path:'Price'},{path:'CurrencyCode'}],
+                            type: 'sap.ui.model.type.Currency',
+                            formatOptions: {showMeasure: false}
+                        }"
+                numberUnit=""
+                markFavorite=""
+                markFlagged=""
+                showMarkers="true">
+            <attributes>
+                <ObjectAttribute text="" />
+                <ObjectAttribute text="" />
+            </attributes>
+        </ObjectHeader>
