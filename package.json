@@ -1,9 +1,12 @@
 {
   "name": "ui5-artisan",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Command-Line Tools to create UI5 Applications",
   "main": "index.js",
-  "author": "Ryan Boyd",
+  "author": {
+    "name": "Ryan Boyd",
+    "email": "ryaboyd@gmail.com"
+  },
   "preferGlobal": true,
   "license": "GNU GPLv3",
   "bin": {
