@@ -25,7 +25,7 @@
   },
   "sap.ui5": {
     "_version": "1.1.0",
-    "rootView": "sap.ui.demo.wt.view.App",
+    "rootView": "ui5nameSpace.view.App",
     "dependencies": {
       "minUI5Version": "1.30",
       "libs": {
@@ -36,7 +36,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "sap.ui.demo.wt.i18n.i18n"
+          "bundleName": "ui5nameSpace.i18n.i18n"
         }
       }
     }

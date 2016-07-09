@@ -13,7 +13,7 @@
             data-sap-ui-xx-bindingSyntax="complex"
             data-sap-ui-preload="async"
             data-sap-ui-resourceroots='{
-            ui5nameSpace: "./"
+            "ui5nameSpace": "./"
          }' >
     </script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -26,7 +26,7 @@
                 new Shell({
                     app: new ComponentContainer({
                         height : "100%",
-                        name : ui5nameSpace
+                        name : "ui5nameSpace"
                     })
                 }).placeAt("content");
             });
