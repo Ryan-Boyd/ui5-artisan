@@ -17,55 +17,13 @@ Inspired by [Laravel's Artisan CL tool](https://laravel.com/docs/5.2/artisan), [
 ```
  $ ui5 -h --help
  $ ui5 -V --version
- $ ui5 -s --scaffold <project name> create a new UI5 Project
- $ ui5 -v --view [name] [type] make view. optional file type. default is xml (js|xml)
- $ ui5 -c --controller [name] make controller
- $ ui5 -vc --viewController [name] [type] make view and controller. optional file type. default is xml (js|xml)
+ $ ui5 -s --scaffold <project name> [name space] create a new UI5 Project
+ $ ui5 -v --view [name] [name space] [type] make view. optional file type. default is xml (xml|js)
+ $ ui5 -c --controller [name] [name space] make controller
+ $ ui5 -vc --viewController [name] [name space] [type] make view and controller. optional file type. default is xml (xml|js)
  $ ui5 -b --builder <template engine> [name] create a custom xml view template
 ```
 
 `ui5 -s` creates a new project folder
 
-use `ui5 -v`,`ui5 -c`,`ui5 -vc` in projects root folder
-
-## templating key
-
-// ≈ still needs to be added
-
-### basic
-[ ≈ begin template
-
-] ≈ end template
-
-\- ≈ whitespace character (must use between elements[unless aggregated])
-
-### objects
-sf ≈ simple form
-
-//f ≈ form
-
-oh ≈ object header
-
-//t or tm ≈ sap.m.table
-
-//tui ≈ sap.ui.table
-
-//itb ≈ icon tab bar
-
-//p ≈ panel
-
-### modifiers
-
-These must prefix a number (1-infinity) determing how many to be created
-
-l ≈ label/input pair
-
-x ≈ checkbox
-
-b ≈ button
-
-## template examples
-```
-$ ui5 -b [-oh-psfl2x1b1-b1-t-]
-```
-creates object header, panel with simple form and 2 label/input pairs, checkbox, and button enclosed, button, and mobile table
+`ui5 -v`,`ui5 -c`,`ui5 -vc` creates views/controllers in current working directory
