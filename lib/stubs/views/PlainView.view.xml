@@ -1,5 +1,5 @@
 <mvc:View
-        controllerName=ui5nameSpace
+        controllerName="ui5nameSpace.controller.projectName"
         xmlns:mvc="sap.ui.core.mvc"
         xmlns:commons="sap.ui.commons"
         xmlns:l="sap.ui.layout"
